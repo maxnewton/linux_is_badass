@@ -1,0 +1,11 @@
+Luckily you've got a USB flash drive ready. So you hop in the car and drive down to the library. It's only 3 blocks, but you're in a hurry here. No time for walking! You need Internet, man!
+
+I'm not going to bore you with the tale of how you utilized one of the public library computers to search for, and download, the driver for the Ethernet card you have in your PC. Suffice to say: it happened as you would expect. Except for the whole "lifetime ban from ever setting foot in the library" thing. That feels a bit excessive. I mean, that guy was mostly bald already.
+
+2 hours later, you return home, stick the flash drive in your tower and run the driver setup .exe.
+
+At this point there is good news and bad news.
+
+The Good News: You downloaded the wrong driver. Which means you still have no Internet.
+
+The Bad News: You can't think of anyone nearby that you can beg to use their computer to download the right driver.

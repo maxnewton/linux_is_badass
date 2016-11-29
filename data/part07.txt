@@ -1,0 +1,19 @@
+You get home, let Scruffy out to go potty, and set about installing Windows 8 on your beast of a PC.
+
+[It should be noted, at this point, that you, the reader, has no idea what "Scruffy" is. Nothing in the sentence above tells you what "Scruffy" is. You assume it is a dog, because it's name is "Scruffy". You know what that is? That's racist. You are racist. What if it's a cat? Or a person with real person feelings. You also assume that "Scruffy" is a boy. Which also makes you sexist. You are a sexist, racist. Side note: "Sexist, racist" is not at all the same as "Sexy, racy". How weird is that?]
+
+After you let your dog back inside you plop yourself back at your desk and enjoy the final moments of the Windows 8 installer. It is glorious. The Windows 8 installer installs the shit out of Windows 8. Redmond should be proud. In fact, the installer is so excellent, a small tear develops in the corner of your eye -- and you are suddenly compelled to write a nice letter to Microsoft.
+
+"Dear Microsoft Guys,
+Thank you for the Windows 8 installer and how it installs the shit out of Windows 8.
+Sincerely, NAME REDACTED"
+
+As you finish spritzing your letter with just a dash of cologne (that's how Microsoft knows you care) the installer finishes it's epic task (that being to install Windows 8 which, as has been previously discussed, it does the shit out of). First things first: time to install a better web browser!
+
+So you click on the old Internet Explorer icon - taking a brief moment to marvel at how quickly it launched on your super duper new machine - and...there's no Internet connection. Why is there no Internet connection?
+
+Troubleshooting wizard? Huh? No. You can handle that on your own.
+
+Luckily, you're smarter than your average bear. You unplug the Ethernet cable from the back of your GENERIC BRAND VIDEO GAME CONSOLE and hook that up to your new PC tower. You know that connection works, you use it to play GAME ABOUT SHOOTING on the Internet with 12 year olds all the time.
+
+Still no dice. And that little troubleshooting wizard is really starting to piss you off. After much investigating (and swearing) you realize that Windows does not have the driver for your Ethernet card. So you'll need to go online to download it. Unfortunately you can't get online. Because you don't already have the driver that lets you get online. Which sort of makes you want to punch a hobo.

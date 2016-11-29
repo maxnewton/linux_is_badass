@@ -1,0 +1,13 @@
+As luck would have it, you happen to have a few DOS floppies laying in a box right by your desk.
+
+Why these floppies are in the box, and why the box is, itself, right next to your desk, would make for an interesting story. One involving old boxes filled with old computer crap. Pretty riveting stuff.
+
+Also lucky: the fact that you had the foresight to install a floppy drive in your brand new PC. Sure, floppies are outdated. But what if you "needed do get some important files off a floppy sometime" you thought to yourself. The guy down at your local Nerd Stuff, who helped you ring up the parts, made fun of you. Something about him never having seen one in person before. Who's laughing now, kid?
+
+You slide the floppy into the disk drive and reboot.
+
+A:\> SETUP.EXE
+
+The letters are on the screen before you even knew what was happening. It's almost like... your fingers remember. They knew what you needed to type. "It's good to be home", you think to yourself - confident in your decision to just use DOS. "What do I need a newer Operating System for anyway? DOS has everything I'd ever need, right?" you say, rather loudly, to the empty room that was busy not giving a shit.
+
+The Setup program finishes up, you reboot and your computer comes to rest at a C:\>... when it dawns on you. You don't actually have any DOS software to run. Also you have no idea how to get online with DOS. The last time you did that was with an old 28.8 modem -- and you don't have one of those.
