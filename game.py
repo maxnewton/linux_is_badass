@@ -1,3 +1,10 @@
+# Author: Aaron Powell (Github user "maxnewton")
+#
+# game.py - Game Classes
+#
+# This module includes basic classes for a text-based game engine where
+# a user is presented with a story and some options to choose from.
+
 import textwrap
 
 class Location:

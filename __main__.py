@@ -1,3 +1,17 @@
+# Linux is Badass - The Python Game
+# Author: Aaron Powell (Github user "maxnewton")
+#
+# This is an interactive, text-based adventure game based on Bryan Lunduke's "Linux is
+# Badass". Except, instead of a PDF, this is Python. Clearly.
+#
+# The original can be downloaded on Github: https://github.com/BryanLunduke/LinuxIsBadass.
+#
+# For more works by Bryan (and to donate some pocket change to that handsome motherf*****),
+# visit his website at http://lunduke.com/.
+#
+# This game is licensed under an Attribution-NonCommercial-ShareAlike 4.0 International
+# license. For more info, visit https://creativecommons.org/licenses/by-nc-sa/4.0/.
+
 from game import Location, Choice
 from os import listdir
 from os.path import isfile, join
