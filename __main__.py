@@ -15,9 +15,26 @@
 from game import Stage, Option
 from os import listdir
 from os.path import isfile, join
+import textwrap
+
+def wrap(string, length):
+    result = ''
+    for block in string:
+        if block == '\n':
+            result += '\n'
+        else:
+            for line in textwrap.wrap(block, length):
+                result += line + '\n'
+    return result
+
+def print_divider(length):
+    for i in range(1,length+1):
+        print('-', end='')
+    print()
 
 def loop(stage):
-    stage.print_description()
+    print_divider(70)
+    print(wrap(stage.description, 70))
 
     if not stage.gameover:
         i = 1

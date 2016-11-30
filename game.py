@@ -5,8 +5,6 @@
 # This module includes basic classes for a text-based game engine where
 # a user is presented with a story and some options to choose from.
 
-import textwrap
-
 class Stage:
     ''' A basic stage class '''
     
@@ -15,18 +13,6 @@ class Stage:
         self.description = description
         self.options = []
         self.gameover = gameover
-
-    def print_description(self):
-        for char in range(1,71):
-            print('-', end='')
-        print()
-        for p in self.description:
-            if p == '\n':
-                print()
-            else:
-                for line in textwrap.wrap(p,70):
-                    print(line)
-        print()
 
 class Option:
     ''' A basic option class '''
