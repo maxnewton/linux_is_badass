@@ -7,13 +7,13 @@
 
 import textwrap
 
-class Location:
-    ''' A basic location class '''
+class Stage:
+    ''' A basic stage class '''
     
     def __init__(self, title, description, gameover=False):
         self.title = title
         self.description = description
-        self.choices = []
+        self.options = []
         self.gameover = gameover
 
     def print_description(self):
@@ -28,9 +28,9 @@ class Location:
                     print(line)
         print()
 
-class Choice:
-    ''' A basic choice class '''
+class Option:
+    ''' A basic option class '''
 
-    def __init__(self, description, location):
+    def __init__(self, description, stage):
         self.description = description
-        self.location = location
+        self.stage = stage
