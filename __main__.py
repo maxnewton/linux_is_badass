@@ -41,8 +41,12 @@ def loop(stage):
             print('%d. %s' % (i+1, option.description))
 
         c = input('>:')
-        print()
 
+        while int(c) > len(stage.options) or int(c) == 0:
+            print('That\'s not a valid option. Please try again.')
+            c = input('>:')
+
+        print()
         loop(stage.options[int(c)-1].stage)
     
 if __name__ == '__main__':
