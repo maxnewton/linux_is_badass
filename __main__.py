@@ -40,14 +40,14 @@ def loop(stage):
         for i, option in enumerate(stage.options):
             print('%d. %s' % (i+1, option.description))
 
-        c = input('>:')
+        c = int(input('>:'))
 
-        while int(c) > len(stage.options) or int(c) == 0:
+        while c > len(stage.options) or c == 0:
             print('That\'s not a valid option. Please try again.')
-            c = input('>:')
+            c = int(input('>:'))
 
         print()
-        loop(stage.options[int(c)-1].stage)
+        loop(stage.options[c-1].stage)
     
 if __name__ == '__main__':
     # Load stage descriptions from files
