@@ -1,10 +1,10 @@
 # Linux is Badass - The Python Game
-# Author: Aaron Powell (Github user "maxnewton")
+# Author: Aaron Powell (GitHub user "maxnewton")
 #
 # This is an interactive, text-based adventure game based on Bryan Lunduke's "Linux is
 # Badass". Except, instead of a PDF, this is Python. Clearly.
 #
-# The original can be downloaded on Github: https://github.com/BryanLunduke/LinuxIsBadass.
+# The original can be downloaded on GitHub: https://github.com/BryanLunduke/LinuxIsBadass.
 #
 # For more works by Bryan (and to donate some pocket change to that handsome motherf*****),
 # visit his website at http://lunduke.com/.
@@ -28,7 +28,7 @@ def wrap(string, length):
     return result
 
 def print_divider(length):
-    for i in range(1,length+1):
+    for i in range(0,length):
         print('-', end='')
     print()
 
@@ -37,10 +37,8 @@ def loop(stage):
     print(wrap(stage.description, 70))
 
     if not stage.gameover:
-        i = 1
-        for option in stage.options:
-            print('%d. %s' % (i, option.description))
-            i += 1
+        for i, option in enumerate(stage.options):
+            print('%d. %s' % (i+1, option.description))
 
         c = input('>:')
         print()
@@ -48,8 +46,6 @@ def loop(stage):
         loop(stage.options[int(c)-1].stage)
     
 if __name__ == '__main__':
-    print('Linux is Badass - The Adventure Game')
-    
     # Load stage descriptions from files
     descriptions = []
 
@@ -62,7 +58,7 @@ if __name__ == '__main__':
         descriptions.append(content)
 
     # Set up stages
-    s0 = Stage('Welcome!', descriptions[0])
+    s0 = Stage('Welcome', descriptions[0])
     s1 = Stage('Part 1', descriptions[1])
     s2 = Stage('Part 2', descriptions[2])
     s3 = Stage('Part 3', descriptions[3])
@@ -149,5 +145,7 @@ if __name__ == '__main__':
 
     # Add options for Part 15
     # None here, either.
-    
+
+    # Let's get this game started!
+    print('Linux is Badass - The Python Game')
     loop(s0)

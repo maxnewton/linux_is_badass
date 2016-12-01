@@ -1,4 +1,4 @@
-# Author: Aaron Powell (Github user "maxnewton")
+# Author: Aaron Powell (GitHub user "maxnewton")
 #
 # game.py - Game Classes
 #
