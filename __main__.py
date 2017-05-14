@@ -6,7 +6,7 @@
 #
 # The original can be downloaded on GitHub: https://github.com/BryanLunduke/LinuxIsBadass.
 #
-# For more works by Bryan (and to donate some pocket change to that handsome motherf*****),
+# For more works by Bryan (and to donate some pocket change to that handsome bastard),
 # visit his website at http://lunduke.com/.
 #
 # This game is licensed under an Attribution-NonCommercial-ShareAlike 4.0 International
