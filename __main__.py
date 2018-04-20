@@ -89,9 +89,11 @@ if __name__ == '__main__':
     s13 = Stage('Part 13', descriptions[13], gameover=True)
     s14 = Stage('Part 14', descriptions[14])
     s15 = Stage('Part 15', descriptions[15], gameover=True)
+    s16 = Stage('', '', gameover=True)
 
     # Add options for Part 0
     s0.options.append(Option('Begin the game', s1))
+    s0.options.append(Option('No thanks, you insulted my mother', s16))
 
     # Add options for Part 1
     s1.options.append(Option('Choose Windows', s4))
