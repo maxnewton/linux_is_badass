@@ -13,28 +13,39 @@
 # license. For more info, visit https://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 from game import Stage, Option
-from os import listdir
+from os import listdir, popen
 from os.path import isfile, join
 import textwrap
 
-def wrap(string, length):
+def get_terminal_width():
+    width = int( popen('stty size', 'r').read().split()[1] )
+
+    if width < 70:
+        return width
+    else:
+        return 70
+
+def wrap(string):
     result = ''
+
+    width = get_terminal_width()
+
     for block in string:
         if block == '\n':
             result += '\n'
         else:
-            for line in textwrap.wrap(block, length):
+            for line in textwrap.wrap(block, width):
                 result += line + '\n'
     return result
 
-def print_divider(length):
-    for i in range(0,length):
+def print_divider():
+    for i in range(0,get_terminal_width()):
         print('-', end='')
     print()
 
 def loop(stage):
-    print_divider(70)
-    print(wrap(stage.description, 70))
+    print_divider()
+    print(wrap(stage.description))
 
     if not stage.gameover:
         for i, option in enumerate(stage.options):
