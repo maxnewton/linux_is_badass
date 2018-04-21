@@ -7,7 +7,7 @@ This game is licensed under an Attribution-NonCommercial-ShareAlike 4.0 Internat
 
 To play this freaking awesome interactive adventure game, download or clone it to your freaking awesome hard drive:
 
-	git clone https://github.com/maxnewton/linux_is_badass
+	git clone https://github.com/maxnewton/linux-is-badass
 	cd linux_is_badass
 	python3 ./
 
